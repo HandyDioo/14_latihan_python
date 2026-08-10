@@ -1,8 +1,13 @@
-#Menentukan Bilangan Ganjil atau Genap
+while True:
+    angka = int(input("Masukkan sebuah bilangan : "))
 
-angka = int(input("Masukkan sebuah bilangan : "))
+    if angka % 2 == 0:
+        print(angka, "adalah bilangan GENAP")
+    else:
+        print(angka, "adalah bilangan GANJIL")
 
-if angka % 2 == 0:
-    print(angka, "adalah bilangan GENAP")
-else:
-    print(angka, "adalah bilangan GANJIL")
+    ulang = input("Apakah Anda ingin memasukkan bilangan lain? (Y/N): ")
+
+    if ulang.upper() !="Y":
+        print("Program selesai. Have a nice day!")
+        break
