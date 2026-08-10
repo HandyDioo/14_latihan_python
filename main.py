@@ -37,3 +37,4 @@ print("\n[ANALISIS MEMORI SISTEM]")
 print("Tipe data nama_operator :", type(nama_operator))
 print("Tipe data jumlah_port    :", type(jumlah_port))
 print("Tipe data kecepatan_link :", type(kecepatan_link))
+
