@@ -6,8 +6,11 @@ while True:
     else:
         print(angka, "adalah bilangan GANJIL")
 
-    ulang = input("Apakah Anda ingin memasukkan bilangan lain? (y/n): ")
+    ulang = input("Apakah Anda ingin memasukkan bilangan lain? (Y/N): ")
 
-    if ulang.lower() !="y":
-        print("Program selesai. Have a nice day honeyyyyyyyyyyyyyy😘😘🥰🥰")
+    if ulang.upper() !="Y":
+        print("Program selesai. Have a nice day!")
         break
+
+    print ("============================================")
+    print ("============================================")
