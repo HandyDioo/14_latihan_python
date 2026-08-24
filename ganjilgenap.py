@@ -11,3 +11,4 @@ while True:
     if ulang.upper() !="Y":
         print("Program selesai. Have a nice day!")
         break
+print  ("=================================")
